@@ -139,8 +139,8 @@ section {
 }
 
 .dropdown-item:hover {
-  background-color: #000;
-  color: #808080;
+  background-color: #72ADB3;
+  color: #fff;
 }
 
 /* title section */
@@ -276,7 +276,7 @@ iframe {
 
 .contact-section {
   text-align: left;
-  padding: 10% 2% 5%;
+  padding: 5% 2% 5%;
   background-color: #000;
   color: #fff;
 }
@@ -366,6 +366,11 @@ iframe {
 
 /* media query */
 @media (max-width: 991px) {
+  .brand {
+    font-size: 2.8rem;
+    margin: 1px;
+  }
+
   #title .container-fluid {
     padding: 0;
   }
@@ -373,11 +378,19 @@ iframe {
   .title-img {
     position: static;
     width: 100%;
-    min-width: 600px;
+    min-width: 500px;
+  }
+
+  .socials {
+    padding: 5px;
   }
 
   .mixing-margin {
     /* margin: 0 120px; */
+  }
+
+  iframe {
+    max-width: 220px;
   }
 
   .container-fluid {
@@ -401,7 +414,7 @@ iframe {
   }
 
   .contact-section {
-    padding: 150px 2% 150px;
+    padding: 50px 2% 150px;
   }
 
   .contact-left {
